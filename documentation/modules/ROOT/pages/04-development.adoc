@@ -130,10 +130,10 @@ You have made it to the end of the National Parks Map application Golden Path. _
 
 Now it's your turn to begin crafting your own Golden Paths using Backstage Software Templates and related platform services such as ArgoCD, Tekton, Dev Spaces, and OpenShift.
 
-* To learn about the Software Templates that were used in this workshop, visit: https://github.com/redhat-scholars/backstage-workshop
+* To learn about the Software Templates that were used in this workshop, visit: https://github.com/gmarcy/backstage-workshop
 
-* For more Backstage / Janus Software Templates examples, see: https://github.com/janus-idp/software-templates
+* For more Backstage / RHDH Software Templates examples, see: https://github.com/redhat-developer/red-hat-developer-hub-software-templates
 
-* To share your feedback on this workshop, open an issue here: https://github.com/redhat-scholars/backstage-workshop/issues
+* To share your feedback on this workshop, open an issue here: https://github.com/gmarcy/backstage-workshop/issues
 
 

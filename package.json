@@ -1,7 +1,7 @@
 {
   "name": "rhs-openshift-admins-devops",
   "description": "OpenShift Admins Devops Course Documentation Site",
-  "homepage": "https://redhat-scholars.github.io/openshift-admins-devops",
+  "homepage": "https://gmarcy.github.io/openshift-admins-devops",
   "author": {
     "email": "kamesh.sampath@hotmail.com",
     "name": "Kamesh Sampath",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redhat-scholars/openshift-admins-devops.git"
+    "url": "git+https://github.com/gmarcy/openshift-admins-devops.git"
   },
   "license": "Apache-2.0",
   "babel": {

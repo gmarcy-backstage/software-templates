@@ -137,7 +137,7 @@ spec:
       input:
         appName: ${{parameters.namespace}}-poi-backend-app-bootstrap
         argoInstance: main
-        namespace: janus-argocd
+        namespace: rhdh-argocd
         repoUrl: https://github.com/${{parameters.githubOrg}}/${{parameters.namespace}}-backend-gitops.git
         path: 'argocd/'
   output:

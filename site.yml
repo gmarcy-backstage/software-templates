@@ -3,7 +3,7 @@ runtime:
 
 site:
   title: Backstage Workshop
-  url: https://redhat-scholars.github.io/backstage-workshop
+  url: https://gmarcy.github.io/backstage-workshop
   start_page: backstage-workshop::index.adoc
 
 content:

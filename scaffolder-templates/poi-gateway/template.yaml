@@ -137,7 +137,7 @@ spec:
       input:
         appName: ${{parameters.namespace}}-poi-gateway-app-bootstrap
         argoInstance: main
-        namespace: janus-argocd
+        namespace: rhdh-argocd
         repoUrl: https://github.com/${{parameters.githubOrg}}/${{parameters.namespace}}-gateway-gitops.git
         path: 'argocd/'
   output:

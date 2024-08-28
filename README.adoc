@@ -1,20 +1,20 @@
 = Backstage Workshop featuring RHDH and GitHub
 
-To learn about the Software Templates that were used in this workshop, explore the `scaffolder-templates` folder. For additional Template examples, see https://github.com/janus-idp/software-templates
+To learn about the Software Templates that were used in this workshop, explore the `scaffolder-templates` folder. For additional Template examples, see https://github.com/redhat-developer/red-hat-developer-hub-software-templates
 
 == Workshop Cluster Setup
 
 To set up your own workshop cluster, implement the following changes to the link:https://janus-idp.io/demo-setup/install/[demo-setup] installation process:
 
-1. First, create a checkout of link:https://github.com/ryanj/janus-platforms/tree/workshop[this `workshop` branch] (instead of using the `janus-idp/demo-setup` repo):
+1. First, create a checkout of link:https://github.com/gmarcy/janus-platforms/tree/workshop[this `workshop` branch] (instead of using the `janus-idp/demo-setup` repo):
 +
 ```bash
-git clone https://github.com/ryanj/janus-platforms.git
+git clone https://github.com/gmarcy/janus-platforms.git
 cd janus-platforms/ansible/cluster-setup
 git checkout workshop
 ```
-2. Next, link:https://github.com/redhat-scholars/backstage-workshop/fork[fork this repo] while setting the owner input to your new github org, and the name of the new repo to: `software-templates`
-3. Then, complete the rest of the link:https://janus-idp.io/demo-setup/install/[demo-setup] installation process (while skipping the optional quay section).  That doc will instruct you to export several variables that will be used in the upcoming example commands
+2. Next, link:https://github.com/gmarcy/backstage-workshop/fork[fork this repo] while setting the owner input to your new github org, and the name of the new repo to: `software-templates`
+3. Then, complete the rest of the link:https://github.com/gmarcy/janus-platforms/blob/workshop/docs/docs/install/index.md[install] installation process (while skipping the optional quay section).  That doc will instruct you to export several variables that will be used in the upcoming example commands
 4. Create *another* OAuth app to provide GitHub Auth into the Openshift cluster:
 +
 ```bash
@@ -117,7 +117,7 @@ kubectl patch deploy/janus-dev -n backstage -p '{"spec":{"template":{"spec":{"im
 
 == Workshop Content Development
 
-workshop content is available at: https://redhat-scholars.github.io/backstage-workshop
+workshop content is available at: https://gmarcy.github.io/backstage-workshop
 
 ==== Local Development with Gulp
 Install local development dependencies via `npm`:
